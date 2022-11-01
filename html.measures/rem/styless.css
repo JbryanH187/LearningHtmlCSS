@@ -1,0 +1,26 @@
+/* Siempre tomara como padre la etiqueta html osea nuestros respectivos 16px */
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+
+    font-size: 62.5%;
+
+}
+/* 62.5 hara que 1rem sea igual a 10px entonces 1.6 rem sera igual a 16px */
+p{
+
+    font-size: 1.6rem;
+
+}
+
+main div{
+
+    font-size: 1.8rem;
+
+}

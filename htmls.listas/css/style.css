@@ -1,0 +1,82 @@
+
+.navHero a{
+
+    text-decoration: none;
+    color: purple;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid;
+    border-color: purple;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.navHero a:hover{
+
+    color: violet;
+    background-color: white;
+}
+
+.naveHero a:active{
+
+    color: violet;
+    border-color: violet;
+
+}
+
+.naveHero a::after{
+
+    content: "|";
+
+}
+
+.title{
+
+    color:purple;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.navHero{
+    
+    text-align: center;
+    display: inline-flexbox;
+    background-color: purple;
+    padding: 12px;
+ 
+}
+
+.subtitleHero{
+
+    font-size: 3rem;
+    color: blueviolet;
+
+}
+
+.imgHero{
+
+    width: 10rem;
+    border: 1px solid;
+    border-color: purple;
+    border-radius: 1rem;
+
+}
+
+
+
+.section-article_li__item{
+
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.section-article_lo__item{
+
+    display:inline-flexbox
+
+}

@@ -1,0 +1,149 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    font-size: 62.5%;
+
+}
+
+hr{
+    color: darkblue;
+    border: 1px solid;
+    margin: 10px;
+    rotate: 90deg;
+    position:   relative;
+    left: 15rem;
+}
+
+.header-hero{
+
+    margin: 0%;
+    color: white;
+    background-color: darkblue;
+
+}
+
+.ul-hero{
+
+    display: inline-block;
+    
+
+}
+
+.nav-hero{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    
+    margin: 0;
+    padding: 0;
+    max-width: 5%;
+    min-width: 2%;
+
+}
+
+.ul-hero li{
+
+    display: inline-block;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+
+}
+
+.ul-hero a{
+
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main-mains{
+
+    display: inline-block;
+    width: 25rem;
+    height: 100%;
+
+}
+
+.section-mains{
+
+    display: flexbox;
+
+}
+
+.box{
+
+    margin: 1rem;
+    background-color: lightskyblue;
+    height: 15rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.05rem 0.1rem .2rem darkblue;
+
+}
+
+.section-lorem{
+
+    display: flex;
+    background-color: lightblue;
+    position: relative;
+    margin: 10px;
+    width: 162.5rem;
+    min-width: 50%;
+    height: 78.5rem;
+    max-height: 100%;
+    left: 100%;
+    bottom: 79.8rem;    
+    border: 1px darkblue solid;
+    
+}
+
+.member{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.member li{
+    
+    display: inline-block;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: 1px darkblue solid;
+    border-radius: 20px;
+    height: 30%;
+    
+}
+
+.box-member{
+
+    margin: 1rem;
+    width: 100%;
+    
+}
+
+.villian{
+
+    display: flex;
+    background-color: red;
+    position: relative;
+    bottom: 80rem;
+    height: 100rem;
+
+}
+

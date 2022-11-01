@@ -1,0 +1,21 @@
+.paragraph{
+
+    color: red;
+    font-size: 5rem;
+
+}
+/* Por clase */
+.paragraph2{
+    
+    color:yellowgreen;
+    font-size: 3rem;
+
+}
+/* Por Id */
+#txt{
+
+    color: blue;
+    font-size: 2rem;
+
+}
+

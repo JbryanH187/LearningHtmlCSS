@@ -1,0 +1,35 @@
+hr{
+    background-color: whitesmoke;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: purple;
+    padding: 1px;
+
+}
+/* Toda etiqueta de parrafo cercana a un h2 ponla de color rojo */
+/* Adjacent Sibling hermano adyacente o cercano */
+h2 + p {
+
+    color: red;
+
+}
+/* Sibling General */
+/* A todos sus hermanos cercanos le pondra estos estilos */
+h3 ~ p{
+
+    color: red;
+
+}
+
+/* Hijo directo */
+div > p{
+
+    color: red;
+
+}
+
+article > p {
+
+    color: blueviolet;
+
+}
