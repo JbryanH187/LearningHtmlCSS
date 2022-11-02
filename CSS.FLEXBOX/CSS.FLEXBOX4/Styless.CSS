@@ -1,0 +1,79 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+h1{
+
+    text-align: center;
+    color: steelblue;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 90%;
+    height: 50rem;
+    background-color: lightblue;
+    display: flex;
+    margin: auto;
+    align-items: stretch;
+    flex-direction: row;
+    
+
+
+}
+
+.item{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-shrink: 1;
+
+}
+
+.I{
+    
+
+    background-color: steelblue;
+    flex: 25;
+
+}
+
+.P{
+
+    background-color: yellowgreen;
+    flex: 75;
+    
+}
+
+
+/*
+
+Espacio disponible: 100px
+Suma de flex-grow: 5
+Unit grow: 100/5 = 20px
+
+osea que el primer item crecera 2rem y el segundo 4rem
+
+
+factor de reduccion Shrink
+    unit shrink: -300px/5 = -60px
+*/
+
+/* flex = flexgrow flexshrink flexbasics 
+    flex = 0 1 auto; viene por defecto 
+    flex N donde N es un numero = N 0 0;
+*/
