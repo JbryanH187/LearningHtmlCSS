@@ -1,0 +1,51 @@
+.container{
+
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: unset;
+}
+
+.boxMain{
+
+    width: 100%;
+    height: 50rem;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box1{
+
+    width: 45%;
+}
+
+.box2{
+
+    width: 45%;
+    margin: auto;
+}
+
+.box3{
+
+    width: 45%;
+    margin: auto;
+    
+}
+
+.box4{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    
+}
+
+.box5{
+
+    width: 100%;
+    
+}

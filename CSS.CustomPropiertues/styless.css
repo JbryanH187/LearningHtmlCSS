@@ -1,0 +1,53 @@
+:root{
+
+    --primaryColor: steelblue;
+    --secondaryColor: slateblue;
+    --headerSize: 4rem;
+    --font:1.8rem;
+
+}
+
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+
+    font-size: 62.5%;
+
+}
+
+header{
+
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primaryColor);
+
+}
+
+h1{
+
+    font-size: var(--headerSize);
+    color: steelblue;
+}
+
+main{
+
+    width: 100vw;
+    height: 70vh;
+    background-color: whitesmoke;
+    font-size: var(--font);
+
+}
+
+footer{
+
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secondaryColor);
+
+}
